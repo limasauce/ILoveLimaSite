@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --white: #eaf4d3;
     --Black: #293132;
@@ -6,16 +12,8 @@
     --Purple: #6969B3;
 }
 
-html {
-    height: 100%;
-}
-body{
-    height: 100%;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0%;
-}
-
 .slideshow{
     background-color: var(--white);
 }
+section { border: dashed red 1px}
+p { border: dashed red 1px}
