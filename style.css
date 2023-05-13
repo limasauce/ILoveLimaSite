@@ -1,8 +1,11 @@
 
-*{
-    margin: 0;
+body{
+    font-family: 'Roboto Slab', serif;    
+    margin:0;
     padding: 0;
 }
+
+h1,h2,h3,p{padding-left: 3.5rem;}
 
 :root {
     --white: #eaf4d3;
@@ -14,6 +17,23 @@
 
 .slideshow{
     background-color: var(--white);
+    height: 25rem;
+    max-height: 25rem;
+    
+}
+.slideshow_txt_container{
+    margin-top:  10rem;
+    margin-bottom: 0%;
+    max-height: 10rem;
+    height: 10rem;
+}
+.slideshow_title{
+    margin: 0%;
+    font-size: 3rem;
+}
+.slideshow_txt{
+    margin:0%;
+    font-size: 1.7rem;
 }
 section { border: dashed red 1px}
 p { border: dashed red 1px}
