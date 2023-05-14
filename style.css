@@ -18,10 +18,11 @@ h1,h2,h3,p{padding-left: 3.5rem;}
 section,div,img { border: dashed red 1px}
 p { border: dashed red 1px}
 
+/* Slideshow */
 .slideshow{
     background-color: var(--soft_pink);
-    height: 25rem;
-    max-height: 25rem;
+    height: 39rem;
+    max-height: 50rem;
     display: flex;
     align-items: center;
 }
@@ -35,7 +36,7 @@ p { border: dashed red 1px}
 .slideshow_title{
 
     margin: 0%;
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 .slideshow_txt{
     color: var(--Gray);
@@ -57,3 +58,18 @@ p { border: dashed red 1px}
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Hobbies */
+.hobbies{
+    background-color: var(--soft_pink);
+}
+.hobbies_title{ 
+    text-align: center;
+    font-size: 2.2rem;
+}
+.hobbies_content{
+    display:flex
+}
+
+
