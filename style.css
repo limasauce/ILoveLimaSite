@@ -5,7 +5,7 @@ body{
     padding: 0;
 }
 
-h1,h2,h3,p{padding-left: 3.5rem;}
+h1,h2,h3{padding-left: 3.5rem;}
 
 :root {
     --soft_pink: #F6EFEE;
@@ -13,14 +13,18 @@ h1,h2,h3,p{padding-left: 3.5rem;}
     --Pink: #DA9F93;
     --Green: #04A777;
     --Pink: #FF5964;
+    --light_cyan: #DFFDFF;
+    --white: #FDFAEC;
 }
 
 section,div,img { border: dashed red 1px}
-p { border: dashed red 1px}
-
+p { 
+    border: dashed red 1px;
+    font-size: 1.2rem;
+}
 /* Slideshow */
 .slideshow{
-    background-color: var(--soft_pink);
+    background-color: var(--white);
     height: 39rem;
     max-height: 50rem;
     display: flex;
@@ -62,14 +66,35 @@ p { border: dashed red 1px}
 
 /* Hobbies */
 .hobbies{
-    background-color: var(--soft_pink);
+    background-color: var(--white);
 }
 .hobbies_title{ 
     text-align: center;
     font-size: 2.2rem;
 }
 .hobbies_content{
-    display:flex
+    display:flex;
+    justify-content: space-evenly;
 }
+.hobbies_items{
+    background-color: var(--light_cyan);
+    height: 20rem;
+    width: 13rem;
+    border-radius: 20%;
+}
+
+.hobbies_img{
+    width: 80%;
+}
+.img_programming_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/*About Me*/
+/*My projects*/
+/*Contact Me*/
+/*Footer*/
 
 
