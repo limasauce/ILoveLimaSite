@@ -95,6 +95,16 @@ p {
 /*About Me*/
 /*My projects*/
 /*Contact Me*/
+
+
 /*Footer*/
+
+footer{
+    background-color: var(--Gray);
+    height: 25rem;
+}
+.footer_text{
+    color: var(--white);
+}
 
 
