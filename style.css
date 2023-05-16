@@ -5,7 +5,7 @@ body{
     padding: 0;
 }
 
-h1,h2,h3{padding-left: 3.5rem;}
+/*h1,h2,h3{padding-left: 0rem;} */
 
 :root {
     --soft_pink: #F6EFEE;
@@ -17,7 +17,7 @@ h1,h2,h3{padding-left: 3.5rem;}
     --white: #FDFAEC;
 }
 
-section,div,img { border: dashed red 1px}
+section,div,img,article,h1,h2 { border: dashed red 1px}
 p { 
     border: dashed red 1px;
     font-size: 1.2rem;
@@ -27,7 +27,7 @@ p {
     background-color: var(--white);
     height: 39rem;
     max-height: 50rem;
-    display: flex;
+    /*display: flex; */
     align-items: center;
 }
 .slideshow_txt_container{
@@ -40,7 +40,7 @@ p {
 .slideshow_title{
 
     margin: 0%;
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 .slideshow_txt{
     color: var(--Gray);
@@ -78,8 +78,8 @@ p {
 }
 .hobbies_items{
     background-color: var(--light_cyan);
-    height: 20rem;
-    width: 13rem;
+    height: 22rem;
+    width: 15rem;
     border-radius: 20%;
 }
 
@@ -94,7 +94,11 @@ p {
 
 /*About Me*/
 /*My projects*/
+
+
 /*Contact Me*/
+
+
 
 
 /*Footer*/
@@ -107,4 +111,26 @@ footer{
     color: var(--white);
 }
 
+/*small screen*/
 
+@media only screen and (max-width: 415px){
+    h1,h2{padding-left: 1rem;}
+    h3{padding-left: 0rem;}
+    .slideshow_txt_container{
+        margin-top: 9rem;
+    }
+    .hobbies_title{
+        display: flex;
+        align-content: center;
+    }
+    .img_container{display: none;}
+    .hobbies_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hobbies_items{
+        margin-bottom: 2rem;
+    }
+
+
+} 
