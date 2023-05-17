@@ -17,7 +17,7 @@ body{
     --white: #FDFAEC;
 }
 
-section,div,img,article,h1,h2 { border: dashed red 1px}
+section,div,img,article,form,h1,h2 { border: dashed red 1px}
 p { 
     border: dashed red 1px;
     font-size: 1.2rem;
@@ -97,7 +97,16 @@ p {
 
 
 /*Contact Me*/
-
+.contact{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+.form_container{
+    background-color: var(--light_cyan);
+    max-width: 80%;
+    margin-top: 2rem;
+}
 
 
 
