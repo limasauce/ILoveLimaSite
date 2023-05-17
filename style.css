@@ -14,7 +14,8 @@ body{
     --Green: #04A777;
     --Pink: #FF5964;
     --light_cyan: #DFFDFF;
-    --white: #FDFAEC;
+    --white: #f5f5f5;
+    --cream: #FDFAEC;
 }
 
 section,div,img,article,form,h1,h2 { border: dashed red 1px}
