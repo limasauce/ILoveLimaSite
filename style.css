@@ -106,7 +106,10 @@ p {
 .form_container{
     background-color: var(--light_cyan);
     max-width: 80%;
+    height: 20rem;
     margin-top: 2rem;
+    padding: .5rem;
+    border-radius: 12%;
 }
 
 
