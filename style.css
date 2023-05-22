@@ -23,6 +23,13 @@ p {
     border: dashed red 1px;
     font-size: 1.2rem;
 }
+.vl{
+    position: absolute;
+    width: 1px;
+    left: 50%;
+    border-left: 1px dotted red;
+    height: 180rem;
+}
 /* Slideshow */
 .slideshow{
     background-color: var(--white);
