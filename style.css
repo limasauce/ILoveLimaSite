@@ -110,16 +110,50 @@ p {
 .portfolio{
     display: flex;
     background-color: var(--white);
+    width: 100%;
+    flex-wrap: wrap;
 }
 .portfolio_title_container{
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
     
 }
 .portfolio_title{
     font-size: 1.8rem;
+}
+.portfolio_project_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.project{
+    background-color: var(--Gray);
+    height: 22rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5%;
 
+}
+.img_project_container{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    align-content: center;
+}
+.img_project{
+    width: 100%;
+}
+.project_txt_container{
+    width: 100%;
+}
+.project_description{
+    color: var(--white);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 
