@@ -36,10 +36,9 @@ p {
     height: 39rem;
     max-height: 50rem;
     display: flex;
-    align-items: center;
 }
 .slideshow_txt_container{
-    margin-top:  4rem;
+    margin-top:  0;
     margin-bottom: 0%;
     max-height: 10rem;
     max-width: 40rem;
@@ -55,6 +54,11 @@ p {
     margin:0%;
     font-size: 1.7rem;
 }
+.slideshow h1, .slideshow h3{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .img_container {
     width: 13rem;
     height: 13rem;
@@ -87,8 +91,8 @@ p {
 .hobbies_items{
     background-color: var(--light_cyan);
     margin: 1rem 0 1rem 0;
-    height: 22rem;
-    width: 15rem;
+    height: 35rem;
+    width: 80%;
     border-radius: 20%;
 }
 
@@ -102,7 +106,21 @@ p {
 }
 
 /*About Me*/
-/*My projects*/
+/*portfolio*/
+.portfolio{
+    display: flex;
+    background-color: var(--white);
+}
+.portfolio_title_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.portfolio_title{
+    font-size: 1.8rem;
+
+}
 
 
 /*Contact Me*/
@@ -209,7 +227,6 @@ footer{
 /*small screen*/
 
 @media only screen and (max-width: 415px){
-    h1,h2{padding-left: 1rem;}
     h3{padding-left: 0rem;}
     .slideshow_txt_container{
         margin-top: 9rem;
