@@ -38,8 +38,8 @@ p {
     display: flex;
 }
 .slideshow_txt_container{
-    margin-top:  0;
     margin-bottom: 0%;
+    margin-top: 9rem;
     max-height: 10rem;
     max-width: 40rem;
     height: 10rem;
@@ -58,8 +58,7 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
-.img_container {
+/* .img_container {
     width: 13rem;
     height: 13rem;
     margin: auto;
@@ -73,7 +72,8 @@ p {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
+
 
 
 /* Hobbies */
@@ -126,6 +126,8 @@ p {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .project{
     background-color: var(--Gray);
@@ -134,6 +136,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     border-radius: 5%;
+    margin: 1rem;
 
 }
 .img_project_container{
@@ -164,12 +167,12 @@ p {
     justify-content: center;
 }
 .form_container{
-    background-color: var(--light_cyan);
+    background-color: var(--Gray);
     max-width: 80%;
     height: 35rem;
     margin-top: 2rem;
     padding: .5rem;
-    border-radius: 12%;
+    border-radius: 10%;
     flex-direction: horizontal;
     display: flex;
 }
@@ -182,8 +185,13 @@ form{
 
 }
 .form_row_title{
+    width: 100%;
+    color: var(--white);
     display: flex;
     justify-content: center;
+}
+.form_title{
+    font-size: 1.8rem;
 }
 .form_subtitle{
     align-self: center;
@@ -211,6 +219,7 @@ label{
     display: flex;
     width: 50%;
     margin-right: 0%;
+    color: var(--white);
 }
 
 .form_subtitle{
@@ -260,19 +269,4 @@ footer{
 
 /*small screen*/
 
-@media only screen and (max-width: 415px){
-    h3{padding-left: 0rem;}
-    .slideshow_txt_container{
-        margin-top: 9rem;
-    }
-    .hobbies_title{
-        display: flex;
-        align-content: center;
-    }
-    .img_container{display: none;}
-    .hobbies_content{
-        flex-direction: column;
-        align-items: center;
-    }
 
-} 
