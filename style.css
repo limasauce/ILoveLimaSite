@@ -36,13 +36,15 @@ p {
     height: 39rem;
     max-height: 50rem;
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start 
 }
 .slideshow_txt_container{
     margin-bottom: 0%;
     margin-top: 9rem;
-    max-height: 10rem;
+
     max-width: 40rem;
-    height: 10rem;
+    height: fit-content;
 }
 .slideshow_title{
 
@@ -54,6 +56,29 @@ p {
     margin:0%;
     font-size: 1.7rem;
 }
+.icon_container{
+    width: 100%;
+    margin-top: 0;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 .slideshow h1, .slideshow h3{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -267,6 +292,23 @@ footer{
     color: var(--white);
 }
 
-/*small screen*/
+/*middle size*/
+@media screen and (min-width: 425px) {
+    body {
+      color: red;
+    }
+    .slideshow_txt_container{
+        padding-left: 2rem;
+    }
+    .portfolio_title{
+        font-size: 2rem;
+    }
+    .project{
+        max-width:  21rem;
+    }
+    .form_container{
+        max-width: 21rem;
+    }
+  }
 
 
