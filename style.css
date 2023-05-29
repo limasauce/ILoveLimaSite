@@ -59,12 +59,13 @@ p {
 .icon_container{
     width: 100%;
     margin-top: 0;
+    padding-left: 1rem;
 }
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     text-decoration: none;
   }
@@ -292,13 +293,13 @@ footer{
     color: var(--white);
 }
 
-/*middle size*/
+/*large phone size*/
 @media screen and (min-width: 425px) {
-    body {
-      color: red;
-    }
     .slideshow_txt_container{
         padding-left: 2rem;
+    }
+    .icon_container{
+        padding-left: 60%;
     }
     .portfolio_title{
         font-size: 2rem;
@@ -310,5 +311,20 @@ footer{
         max-width: 21rem;
     }
   }
+
+@media screen and (min-width: 768px){
+    body {
+        color: red;
+    }
+    .portfolio_title{
+        font-size: 2.5rem;
+    }
+    .portfolio_project_container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+}
 
 
