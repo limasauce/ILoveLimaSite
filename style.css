@@ -192,6 +192,7 @@ p {
     display: flex;
     justify-content: center;
 }
+/*
 .form_container{
     background-color: var(--Gray);
     max-width: 80%;
@@ -240,7 +241,7 @@ form{
     flex-direction: column;
     flex-wrap: wrap;
 }
-/**/
+/*
 label{
     display: flex;
     width: 50%;
@@ -281,7 +282,8 @@ label{
     height: 100%;
     display: flex;
     align-items: flex-start; 
-}
+} 
+*/
 
 /*Footer*/
 
