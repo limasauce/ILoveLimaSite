@@ -33,8 +33,8 @@ p {
 /* Slideshow */
 .slideshow{
     background-color: var(--white);
-    height: 39rem;
-    max-height: 50rem;
+    height: fit-content;
+    max-height: 60rem;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start 
@@ -42,7 +42,6 @@ p {
 .slideshow_txt_container{
     margin-bottom: 0%;
     margin-top: 9rem;
-
     max-width: 40rem;
     height: fit-content;
 }
@@ -157,7 +156,7 @@ p {
 }
 .project{
     background-color: var(--Gray);
-    height: min-content;
+    height: max-content;
     width: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -305,10 +304,13 @@ footer{
         padding-left: 60%;
     }
     .portfolio_title{
-        font-size: 2rem;
+        font-size: 5vw;
     }
     .project{
-        max-width:  21rem;
+        max-width:  10rem;
+    }
+    .project_description{
+        font-size: 2.4vw;
     }
     .form_container{
         max-width: 21rem;
@@ -316,9 +318,7 @@ footer{
   }
 
 @media screen and (min-width: 768px){
-    body {
-        color: red;
-    }
+
     .slideshow_txt_container{
         padding-left: 3rem;
     }
@@ -330,8 +330,29 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    
 }
-
-
+@media screen and (min-width: 768px){
+    body {
+        color: red;
+    }
+    .slideshow{
+        height: 49rem;
+    }
+    .slideshow_txt_container{
+        max-width: 70%;
+        
+    }
+    .slideshow_title{
+        font-size: 6vw
+    }
+    .slideshow_txt{
+        font-size: 4vw;
+    }
+    
+    .portfolio_title{
+        font-size: 4vw;
+    }
+    .project_description{
+        font-size: 2vw;
+    }    
+}
