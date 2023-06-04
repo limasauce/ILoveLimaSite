@@ -349,12 +349,13 @@ footer{
         font-size: 4vw;
     }
     .project{
-        width:fit-content;
+        height: 15rem;
+        width: max-content;
     }
     .portfolio_title{
         font-size: 4vw;
     }
     .project_description{
-        font-size: 2vw;
+        font-size: 1.5vh;
     }    
 }
