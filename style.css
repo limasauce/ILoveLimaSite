@@ -348,7 +348,9 @@ footer{
     .slideshow_txt{
         font-size: 4vw;
     }
-    
+    .project{
+        width:fit-content;
+    }
     .portfolio_title{
         font-size: 4vw;
     }
