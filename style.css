@@ -35,6 +35,7 @@ p {
     background-color: var(--white);
     height: fit-content;
     max-height: 60rem;
+    padding-bottom: 8rem;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start 
@@ -186,107 +187,6 @@ p {
 }
 
 
-/*Contact Me*/
-.contact{
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
-}
-/*
-.form_container{
-    background-color: var(--Gray);
-    max-width: 80%;
-    height: 35rem;
-    margin-top: 2rem;
-    padding: .5rem;
-    border-radius: 10%;
-    flex-direction: horizontal;
-    display: flex;
-}
-form{
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-
-}
-.form_row_title{
-    width: 100%;
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-}
-.form_title{
-    font-size: 1.8rem;
-}
-.form_subtitle{
-    align-self: center;
-    padding: 0%;
-}
-.form_row1_container{
-    height: 5em;
-    display: flex;
-    flex-direction: row;
-}
-.form_row2_container{
-    height: 5em;
-    display: flex;
-    flex-direction: row;
-}
-.form_row3_container{
-    display: flex;
-    height:max-content;
-    align-self: stretch;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-/*
-label{
-    display: flex;
-    width: 50%;
-    margin-right: 0%;
-    color: var(--white);
-}
-
-.form_subtitle{
-    width: fit-content;
-    height: fit-content;
-    align-self: center;
-    font-size: 1rem;
-    margin-right: 0;
-}
-.form_input{
-    width: 35%;
-    height: 16%;
-    align-self: center;
-    margin: 0 0 0 .5rem ;
-}
-
-.form_subtitle{
-    display: flex;
-    width: 100%;
-}
-.input_comment_container{
-    width: 100%;
-    height: 10rem;
-    display: flex;
-}
-#form_comment{
-    padding: 0 0 2rem 0;
-    margin: 1rem 0 0 0;
-}
-#input_comment{
-    margin: 1rem 2rem 1rem 2rem;
-    width: 100% ;
-    height: 100%;
-    display: flex;
-    align-items: flex-start; 
-} 
-*/
-
-/*Footer*/
-
 footer{
     background-color: var(--Gray);
     height: 25rem;
@@ -336,26 +236,51 @@ footer{
         color: red;
     }
     .slideshow{
-        height: 49rem;
+        height: 55rem;
+        padding-bottom: 3rem;
     }
     .slideshow_txt_container{
+        padding-top: 12rem;
         max-width: 70%;
         
     }
+    .project{
+        margin: 0%;
+    }
+    .portfolio_project_container{
+        display: flex;
+        gap: 10%;
+
+    }
+    .img_project_container{
+        width: 20rem;
+    }
     .slideshow_title{
-        font-size: 6vw
+        font-size: 8.4vw
     }
     .slideshow_txt{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .project{
-        height: 15rem;
-        width: max-content;
+        height: min-content;
+        width: min-content;
     }
     .portfolio_title{
         font-size: 4.4vw;
     }
     .project_description{
-        font-size: 1.5vh;
+        font-size: 1.8vh;
     }    
+}
+
+@media screen and (min-width: 1450px){
+    .slideshow{
+        max-width: fit-content;
+        padding: auto;
+        margin: 0;
+    }
+    .slideshow_txt_container{
+        margin-top: 0;
+    }
+    
 }
