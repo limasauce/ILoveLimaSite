@@ -43,7 +43,8 @@ p {
 .slideshow_txt_container{
     margin-bottom: 0%;
     margin-top: 9rem;
-    max-width: 40rem;
+    margin: auto;
+    max-width: max-content;
     height: fit-content;
 }
 .slideshow_title{
@@ -220,7 +221,7 @@ footer{
 @media screen and (min-width: 768px){
 
     .slideshow_txt_container{
-        padding-left: 3rem;
+        padding-left: 2.5rem;
     }
     .portfolio_title{
         font-size: 2rem;
@@ -233,7 +234,7 @@ footer{
 }
 @media screen and (min-width: 768px){
     body {
-        color: red;
+        color: blue;
     }
     .slideshow{
         height: 55rem;
@@ -256,7 +257,7 @@ footer{
         width: 20rem;
     }
     .slideshow_title{
-        font-size: 8.4vw
+        font-size: 8.0vw
     }
     .slideshow_txt{
         font-size: 3vw;
@@ -275,12 +276,12 @@ footer{
 
 @media screen and (min-width: 1450px){
     .slideshow{
-        max-width: fit-content;
         padding: auto;
-        margin: 0;
     }
     .slideshow_txt_container{
-        margin-top: 0;
+        max-width: 50%;
+        margin-right: 30%;
+
     }
     
 }
