@@ -1,0 +1,14 @@
+:root{
+    --XlargeText: calc(20px + 3vw);
+    --LargeText: calc(16px + 3vw);
+    --MediumText: calc(12px + 3vw);
+    --SmallText: calc(8px + 3vw);
+    --SubheadingText: calc(5px + 3vw);
+}
+body{
+    margin: 0px;
+}
+.slideshow{
+    display: grid;
+    grid-column: 1;
+}
