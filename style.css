@@ -4,11 +4,33 @@
     --MediumText: calc(12px + 3vw);
     --SmallText: calc(8px + 3vw);
     --SubheadingText: calc(5px + 3vw);
+    --LeftGutter: calc(8px + 1.5625vw);
+    --TopGutter: calc(12px + 7vw);
+    --RightGutter: calc(8px + 1.5625vw);
+
 }
+
 body{
     margin: 0px;
 }
 .slideshow{
+    margin-left: var(--LeftGutter);
+    margin-top: var(--TopGutter);
+    margin-right: var(--RightGutter);
+
+}
+.slideshow_txt_container{
     display: grid;
-    grid-column: 1;
+    grid-template-rows: auto auto;
+    margin: 0px;
+
+}
+
+.slideshow_title{
+    font-size: var(--XlargeText);
+    margin: 0px;
+}
+.slideshow_txt{
+    font-size: var(--MediumText);
+    margin: 0px;
 }
