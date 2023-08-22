@@ -6,6 +6,7 @@
     --SubheadingText: calc(5px + 3vw);
     --LeftGutter: calc(8px + 1.5625vw);
     --TopGutter: calc(12px + 7vw);
+    --BottomGutter: calc(12px + 7vw);
     --RightGutter: calc(8px + 1.5625vw);
     --CardWidth: calc(16em + 4.2vw);
     --CardHeight: calc(22em + 4.2vw);
@@ -68,6 +69,7 @@ body{
 .portfolio{
     margin-left: var(--LeftGutter);
     margin-right: var(--RightGutter);
+    margin-bottom: var(--BottomGutter);
 }
 .portfolio_title_container{
     text-align: center;
@@ -78,6 +80,7 @@ body{
 .portfolio_project_container{
     display: grid;
     justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     row-gap: 1em;
     column-gap: 1em;
 }
@@ -86,6 +89,7 @@ body{
     width: var(--CardWidth);
     height: var(--CardHeight);
     border-radius: 5%;
+    margin: 0 auto 0 auto;
 }
 .img_project{
     width: 100%;
@@ -95,6 +99,13 @@ body{
     margin-left: var(--LeftGutter);
     margin-right: var(--RightGutter);
 
+}
+
+footer{
+    background-color: black;
+}
+.footer_text{
+    color: azure;
 }
 
 
