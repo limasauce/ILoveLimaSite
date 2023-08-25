@@ -32,7 +32,7 @@ body{
     padding-top: calc(4rem + 11vw);
     padding-bottom: calc(1rem + 8vw);
 }
-.slideshow_btn                                                                                                                                                                                                       _container button{
+.slideshow_btn_container button{
     width: var(--CardWidth);
 }
 .slideshow_title{
@@ -44,7 +44,10 @@ body{
     margin: 0px;
 }
 .slideshow_btn_container{
-
+    display: flex;
+    gap: 12px;
+    width: 22rem;
+    height: 4rem;
 }
 .button1{
     background-color: #008CBA; /* Green */
