@@ -32,7 +32,9 @@ body{
     padding-top: calc(4rem + 11vw);
     padding-bottom: calc(1rem + 8vw);
 }
-
+.slideshow_btn                                                                                                                                                                                                       _container button{
+    width: var(--CardWidth);
+}
 .slideshow_title{
     font-size: var(--XlargeText);
     margin: 0px;
@@ -70,6 +72,7 @@ body{
     margin-left: var(--LeftGutter);
     margin-right: var(--RightGutter);
     margin-bottom: var(--BottomGutter);
+    overflow: hidden;
 }
 .portfolio_title_container{
     text-align: center;
@@ -100,12 +103,55 @@ body{
     margin-right: var(--RightGutter);
 
 }
+.contact{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 
+}
+form{
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 80%;
+max-width: 600px;
+border-radius: 10px;
+background: wheat;
+}
+form h3{
+    font-size:  var(--SubheadingText);
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+
+}
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
 footer{
     background-color: black;
 }
 .footer_text{
     color: azure;
+    margin: 0px;
 }
 
 
