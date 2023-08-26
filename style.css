@@ -33,7 +33,7 @@ body{
     padding-bottom: calc(1rem + 8vw);
 }
 .slideshow_btn_container button{
-    width: var(--CardWidth);
+    height: 45px;
 }
 .slideshow_title{
     font-size: var(--XlargeText);
@@ -46,8 +46,6 @@ body{
 .slideshow_btn_container{
     display: flex;
     gap: 12px;
-    width: 22rem;
-    height: 4rem;
 }
 .button1{
     background-color: #008CBA; /* Green */
@@ -76,6 +74,7 @@ body{
     margin-right: var(--RightGutter);
     margin-bottom: var(--BottomGutter);
     overflow: hidden;
+
 }
 .portfolio_title_container{
     text-align: center;
@@ -105,6 +104,29 @@ body{
     margin-left: var(--LeftGutter);
     margin-right: var(--RightGutter);
 
+}
+.portfolio_project_container{
+    width: 100%;
+}
+
+.portfolio_button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--TopGutter) 0;
+}
+.portfolio_button_container button{
+    display:inline-block;
+    border:0.16em solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color: black;
+    text-align:center;
+    transition: all 0.15s;
 }
 .contact{
     display: flex;
